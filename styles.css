@@ -199,6 +199,12 @@ header .mision-vision p {
     color: #003366;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 /* Diseño responsivo para proyectos */
 @media (max-width: 768px) {
     .proyectos-grid {
