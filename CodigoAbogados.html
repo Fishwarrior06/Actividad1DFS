@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre del despacho de abogados del amigo de rojo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Nombre del despacho de abogados del amigo de rojo</h1>
+            <p>Ganamos Juecios Legales.</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="mision-vision">
+            <h2>Misión</h2>
+            <p>Nuestra mision es brindar asesoría y representación legal de alta calidad, enfocándonos en proteger los derechos e intereses de nuestros clientes mediante soluciones éticas, personalizadas y efectivas.</p>
+            <h2>Visión</h2>
+            <p>Nuestra vision es ser reconocidos como un despacho líder en el ámbito jurídico, destacado por su excelencia, compromiso con la justicia y capacidad de generar confianza en cada cliente.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="proyectos" class="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="grid-container">
+                <div class="proyecto">
+                    <img src="Images/Proyecto1.jpg" alt="Representación legal en caso ambiental" />
+                    <h3>Protección Ambiental</h3>
+                    <p>Asesoramos a una empresa en la creación de un programa sostenible y su defensa legal en un caso ambiental emblemático.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="proyecto">
+                    <img src="Images/Proyecto1.jpg" alt="Contrato de construcción firmado con éxito" />
+                    <h3>Negociación de Contratos</h3>
+                    <p>Gestionamos la negociación de un contrato multimillonario para un proyecto de infraestructura urbana.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="proyecto">
+                    <img src="Images/Proyecto1.jpg" alt="Clientes celebrando éxito en resolución de disputa empresarial" />
+                    <h3>Resolución de Disputas</h3>
+                    <p>Ayudamos a resolver una disputa empresarial compleja a través de la mediación, evitando largos procesos judiciales.</p>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <p style="height: 800px;">Contenido ficticio para probar desplazamiento...</p>
+        </section>
+
+        <a href="#contacto" class="btn-flotante" title="Contáctanos">💬</a>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>¿Necesitas ayuda legal? Escríbenos a <a href="mailto:Nombre del despacho de abogados del amigo de rojo">Nombre del despacho de abogados del amigo de rojo</a>.</p>
+            <div id="popupContacto" class="popup">
+                <div class="popup-contenido">
+                    <span class="cerrar" onclick="cerrarPopup()">&times;</span>
+                    <h2>Contacto</h2>
+                    <form action="#" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                        
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+                        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nombre del despacho de abogados del amigo de rojo. Todos los derechos reservados y la demas sarta de cosas que dicen.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
